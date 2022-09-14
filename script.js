@@ -1,3 +1,4 @@
+// just testing is everything ok
 const display = document.getElementById("display");
 const question = document.getElementById("question");
 const startBtn = document.getElementById("start");
