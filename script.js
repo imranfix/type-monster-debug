@@ -106,8 +106,8 @@ const start = () => {
   let count = 3;
   countdownOverlay.style.display = "flex";
 
-  const startCountdown = setInterval(() => {
-   
+  const countdownOverlay = setInterval(() => {
+
   countdownOverlay.innerHTML = `<h1>${count}</h1>`;
     
 
