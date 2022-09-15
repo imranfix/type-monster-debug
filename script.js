@@ -104,7 +104,7 @@ const start = () => {
   if (startTime) return;
 
   let count = 3;
-  countdownOverlay.style.display = "flex";
+  display.style.display = "flex";
 
   const countdownOverlay = setInterval(() => {
 
@@ -124,6 +124,7 @@ const start = () => {
     count--;
   }, 1000);
 };
+
 
 // START Countdown
 document.getElementById("starts").addEventListener("click", start());
